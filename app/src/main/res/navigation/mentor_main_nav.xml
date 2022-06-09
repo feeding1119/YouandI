@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mentor_main_nav"
+    app:startDestination="@id/menteeLikeFragment">
+
+    <fragment
+        android:id="@+id/menteeLikeFragment"
+        android:name="com.example.youandi.mentorfragments.MenteeLikeFragment"
+        android:label="fragment_mentee_like"
+        tools:layout="@layout/fragment_mentee_like" >
+        <action
+            android:id="@+id/action_menteeLikeFragment_to_mentorChatFragment"
+            app:destination="@id/mentorChatFragment" />
+        <action
+            android:id="@+id/action_menteeLikeFragment_to_mentorMypageFragment"
+            app:destination="@id/mentorMypageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorChatFragment"
+        android:name="com.example.youandi.mentorfragments.MentorChatFragment"
+        android:label="fragment_mentor_chat"
+        tools:layout="@layout/fragment_mentor_chat" >
+        <action
+            android:id="@+id/action_mentorChatFragment_to_menteeLikeFragment"
+            app:destination="@id/menteeLikeFragment" />
+        <action
+            android:id="@+id/action_mentorChatFragment_to_mentorMypageFragment"
+            app:destination="@id/mentorMypageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorMypageFragment"
+        android:name="com.example.youandi.mentorfragments.MentorMypageFragment"
+        android:label="fragment_mentor_mypage"
+        tools:layout="@layout/fragment_mentor_mypage" >
+        <action
+            android:id="@+id/action_mentorMypageFragment_to_menteeLikeFragment"
+            app:destination="@id/menteeLikeFragment" />
+        <action
+            android:id="@+id/action_mentorMypageFragment_to_mentorChatFragment"
+            app:destination="@id/mentorChatFragment" />
+    </fragment>
+</navigation>

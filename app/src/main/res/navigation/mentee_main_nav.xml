@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mentee_main_nav"
+    app:startDestination="@id/mentorRecommandFragment">
+
+    <fragment
+        android:id="@+id/menteeMypageFragment"
+        android:name="com.example.youandi.menteefragments.MenteeMypageFragment"
+        android:label="fragment_mentee_mypage"
+        tools:layout="@layout/fragment_mentee_mypage" >
+        <action
+            android:id="@+id/action_menteeMypageFragment_to_mentorAllFragment"
+            app:destination="@id/mentorAllFragment" />
+        <action
+            android:id="@+id/action_menteeMypageFragment_to_mentorRecommandFragment"
+            app:destination="@id/mentorRecommandFragment" />
+        <action
+            android:id="@+id/action_menteeMypageFragment_to_menteeChatFragment"
+            app:destination="@id/menteeChatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorAllFragment"
+        android:name="com.example.youandi.menteefragments.MentorAllFragment"
+        android:label="fragment_mentor_all"
+        tools:layout="@layout/fragment_mentor_all" >
+        <action
+            android:id="@+id/action_mentorAllFragment_to_menteeMypageFragment2"
+            app:destination="@id/menteeMypageFragment" />
+        <action
+            android:id="@+id/action_mentorAllFragment_to_mentorRecommandFragment2"
+            app:destination="@id/mentorRecommandFragment" />
+        <action
+            android:id="@+id/action_mentorAllFragment_to_menteeChatFragment"
+            app:destination="@id/menteeChatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorRecommandFragment"
+        android:name="com.example.youandi.menteefragments.MentorRecommandFragment"
+        android:label="fragment_mentor_recommand"
+        tools:layout="@layout/fragment_mentor_recommend" >
+        <action
+            android:id="@+id/action_mentorRecommandFragment_to_mentorAllFragment"
+            app:destination="@id/mentorAllFragment" />
+        <action
+            android:id="@+id/action_mentorRecommandFragment_to_menteeMypageFragment"
+            app:destination="@id/menteeMypageFragment" />
+        <action
+            android:id="@+id/action_mentorRecommandFragment_to_menteeChatFragment"
+            app:destination="@id/menteeChatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menteeChatFragment"
+        android:name="com.example.youandi.menteefragments.MenteeChatFragment"
+        android:label="fragment_mentee_chat"
+        tools:layout="@layout/fragment_mentee_chat" >
+        <action
+            android:id="@+id/action_menteeChatFragment_to_menteeMypageFragment"
+            app:destination="@id/menteeMypageFragment" />
+        <action
+            android:id="@+id/action_menteeChatFragment_to_mentorAllFragment"
+            app:destination="@id/mentorAllFragment" />
+        <action
+            android:id="@+id/action_menteeChatFragment_to_mentorRecommandFragment"
+            app:destination="@id/mentorRecommandFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".auth.SelectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="무슨일로 오셨나요?"
+            android:layout_margin="10dp"
+            android:textSize="40sp"/>
+
+        <Button
+            android:id="@+id/menteeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="멘티로 멘토링을 받고 싶어요"
+            android:backgroundTint="@color/mainColor"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/mentee_resiz"/>
+
+        <Button
+            android:id="@+id/mentorBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="멘토로 멘토링을 하고 싶어요"
+            android:backgroundTint="@color/mainColor"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/mentor_resize"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

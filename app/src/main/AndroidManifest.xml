@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.youandi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YouandI"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".mentorchat.AdminChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TestLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.mProfileEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.GraduationEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.CompanyEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.ProfileEditActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MentorEdit2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MentorEdit1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.TestActivity"
+            android:exported="true" />
+        <activity
+            android:name=".guide.mGuide2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".guide.mGuide1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".guide.Guide3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".guide.Guide2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".guide.Guide1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MenteeLikePageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MentorDataActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mentorchat.MenChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MentorMyPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MentorNaviMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".mypage.MenteeMyPageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".menteechat.MenteeChatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenteeNaviMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.MentorLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenteeMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.MenteeJoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.MentorJoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.MenteeLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.SelectActivity"
+            android:exported="true" />
+        <activity
+            android:name=".auth.IntroActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

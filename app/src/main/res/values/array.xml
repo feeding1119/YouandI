@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="schoolList">
+        <item>카톨릭대학교</item>
+        <item>건국대학교</item>
+        <item>경기대학교</item>
+        <item>경희대학교</item>
+        <item>고려대학교</item>
+        <item>광운대학교</item>
+        <item>국민대학교</item>
+        <item>동국대학교</item>
+        <item>명지대학교</item>
+        <item>삼육대학교</item>
+        <item>상명대학교</item>
+        <item>서강대학교</item>
+        <item>서경대학교</item>
+        <item>서울대학교</item>
+        <item>서울과학기술대학교</item>
+        <item>서울시립대학교</item>
+        <item>성공회대대학교</item>
+        <item>성균관대학교</item>
+        <item>세종대학교</item>
+        <item>숭실대학교</item>
+        <item>연세대학교</item>
+        <item>중앙대학교</item>
+        <item>총신대학교</item>
+        <item>케이씨대학교</item>
+        <item>한국외국어대학교</item>
+        <item>한성대학교</item>
+        <item>한양대학교</item>
+        <item>홍익대학교</item>
+
+    </string-array>
+
+    <string-array name="subjectList">
+        <item>간호학과</item>
+        <item>건축학과</item>
+        <item>건축공학과</item>
+        <item>게임학과</item>
+        <item>경영정보학과</item>
+        <item>경영학과</item>
+        <item>경제학과</item>
+        <item>경찰학과</item>
+        <item>관광학과</item>
+        <item>교육학과</item>
+        <item>국어교육과</item>
+        <item>국어군문학과</item>
+        <item>군사학과</item>
+        <item>기계공학과</item>
+        <item>기독교학과</item>
+        <item>농업경제학과</item>
+        <item>독어독문학과</item>
+        <item>동물자원학과</item>
+        <item>문예창작학과</item>
+        <item>문헌정보학과</item>
+        <item>문화재보존학과</item>
+        <item>물리치료학과</item>
+        <item>물리학과</item>
+        <item>법학과</item>
+        <item>사회복지학과</item>
+        <item>수의과</item>
+        <item>수학과</item>
+        <item>심리학과</item>
+        <item>식품영양학과</item>
+        <item>에너지공학과</item>
+        <item>영어영문학과</item>
+        <item>유아교육학과</item>
+        <item>의학과</item>
+        <item>전기전자공학과</item>
+        <item>정치외교학과</item>
+        <item>중어중문학과</item>
+        <item>철학과</item>
+        <item>치의학과</item>
+        <item>컴퓨터공학과</item>
+        <item>통계학과</item>
+        <item>행정학과</item>
+        <item>화학공학과</item>
+
+    </string-array>
+</resources>
